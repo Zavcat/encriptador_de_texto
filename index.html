@@ -9,29 +9,32 @@
 </head>
 <body>
     <header>
-
+        <img src="/img/Logo.png" alt="Logo Alura" class="logo">
     </header>
     
     <main class="contenido">
        
         <section>
-            <div class="contenido_cuadro_texto">
-                <input type="text" id="cuadro_texto" placeholder="Ingrese el texto aqui" autocapitalize="none" autocomplete="off" size="80">
-            </div>
-            <div class="contenido_mensaje_alerta">
-                <img src="" alt="?"> <p>Solo letras minúsculas y sin acentos  </p> 
+            
+            <textarea class="contenido_encriptar" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="contenido_mensaje_alerta"> Solo letras minúsculas y sin acentos  </h6> 
             </div>   
             <div class="contenido_botones">
-                <a href="#"> Encriptar </a>
-                <a href="#"> Desencriptar </a> 
+                <button class="boton_encriptar">Encriptar</button>
+                <button class="boton_desencriptar">Desencriptar</button>
             </div>
         </section>
        
-        <div class="contenido_texto_encriptado">
-            <img src=" " alt="alura" >
+        <aside class="contenido_texto_encriptado">
+            <textarea class="contenido_encriptado"  cols="30" rows="10"></textarea>
+            <img src="/img/Muñeco.png " alt="Muñeco Alura" >
             <h2> Ningún mensaje fue encontrado</h2>
             <p>Ingrese el texto que desee encriptar o desencriptar</p>
-        </div>
+            <div>
+                <button class="boton_copiar">Copiar Texto</button>
+            </div>
+        </aside>
     </main>
     
     <footer>
