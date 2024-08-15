@@ -6,9 +6,67 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
+}
+
+.logo{
+    width: 7.5rem;
+    height:3rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido_texto_encriptado{
+    margin-left: 12rem;
+    margin-top: 1.5rem;
+
 }
 
 .contenido_encriptar{
-    font-size: 32px;
+    font-size: 2em;
     color: #0A3871;
+    width: auto;
+    border: none;
+    
+}
+
+
+
+.contenido_texto_desencriptado{
+    width: 300px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), -1px -1px 1px 1px rgba(0, 0, 0, 0.1) ;
+}
+
+.Muñeco{
+    width: 13.125rem;
+    height: 12.75rem;
+    margin-top: 7.5rem;
+   
+}
+
+.contenido_texto_desencriptado_textos{
+    width: 14.75rem;
+    text-align: center;
+}
+.contenido_texto_desencriptado_textos h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.contenido_texto_desencriptado_textos p{
+    font-size: 16px;
+    font-weight: 400;
 }
