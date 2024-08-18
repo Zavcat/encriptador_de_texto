@@ -22,6 +22,8 @@ function botonEncriptar(){
     document.getElementById("cuadro_Encriptado").style.display = "block";
     document.getElementById("boton_copiado").style.display = "block";
 
+
+
 }
 
 function desencriptarTexto(textoDesencriptado){
@@ -44,4 +46,9 @@ function botonDesencriptar(){
     document.getElementById("Texto_Imagen_Alura").style.display = "none";
     document.getElementById("cuadro_Encriptado").style.display = "block";
     document.getElementById("boton_copiado").style.display = "block";
+}
+
+function copiartexto(){
+    let textocopiado = document.getElementById("texto_a_desencriptar");
+    navigator.clipboard.writeText(textocopiado.value);
 }
