@@ -2,7 +2,7 @@ const textoUsuario = document.getElementById("texto_a_encriptar");
 const tU_Desencriptado = document.getElementById("texto_a_desencriptar");
 
 function encriptarTexto(textoEncriptar){
-    let palabrasClave = [["e","enter"],["i","ines"],["a","ai"],["o","ober"],["u","ufat"]];
+    let palabrasClave = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     textoEncriptar = textoEncriptar.toLowerCase();
 
     for(let i = 0 ; i < palabrasClave.length; i++){
@@ -27,7 +27,7 @@ function botonEncriptar(){
 }
 
 function desencriptarTexto(textoDesencriptado){
-    let palabrasClave = [["e","enter"],["i","ines"],["a","ai"],["o","ober"],["u","ufat"]];
+    let palabrasClave = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     textoDesencriptado = textoDesencriptado.toLowerCase();
 
     for(let i = 0; i < palabrasClave.length;i++){
