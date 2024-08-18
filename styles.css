@@ -98,7 +98,7 @@ Diseño Asaide - imagen y texto encriptado
 
 .contenido_texto_desencriptado{
     width: 360px;
-    height: auto;
+    height: 480px;
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -113,7 +113,7 @@ Diseño Asaide - imagen y texto encriptado
 .Muñeco{
     width: 13.125rem;
     height: 12.75rem;
-    margin-top: 7.5rem;
+    margin-top: 8.125rem;
    
 }
 .contenido_texto_desencriptado_textos{
@@ -142,10 +142,14 @@ Diseño Asaide - imagen y texto encriptado
     
 }
 
+/*
+Diseño Cuadro de texto encriptado y Boton Copiar
+*/
 .texto_encriptado_activo{
     width: 230px;
     height: 380px;
     margin-top: 10px;
+    display: none;
 }
 .contenido_encriptado{
     font-size: 24px;
@@ -157,6 +161,7 @@ Diseño Asaide - imagen y texto encriptado
     border: none;
     resize: none;
     outline: none;
+    
 }
 .boton_copiar{
     width: 210px;
@@ -170,6 +175,7 @@ Diseño Asaide - imagen y texto encriptado
     font-size: 1rem;
     font-weight: 400;
     border:var(--color-AzulOscuro) 1.5px solid;
+    display: none;
 }
 .boton_copiar:hover{
     background-color: rgb(218, 210, 210);

@@ -16,28 +16,28 @@
        
         <section class="contenido_texto_encriptado">
             
-            <textarea class="contenido_encriptar" cols="30" rows="10" placeholder="Ingrese el texto aquí"  autofocus ></textarea>
+            <textarea id="texto_a_encriptar"  class="contenido_encriptar" cols="30" rows="10" placeholder="Ingrese el texto aquí" onkeypress="return /[a-zñ ]/i.test(event.key)" autofocus ></textarea>
             <div class="contenido_mensaje_alerta">
-                <img class="contenido_img_alerta"  src="../img/zondicons--exclamation-solid.png" alt="Simbolo de exclamación dentro de un circulo.">
+                <img class="contenido_img_alerta"  src="/img/zondicons--exclamation-solid.png" alt="Simbolo de exclamación dentro de un circulo.">
                 <h6> Solo letras minúsculas y sin acentos  </h6> 
             </div>   
             <div class="contenido_botones">
-                <button class="boton_encriptar">Encriptar</button>
-                <button class="boton_desencriptar">Desencriptar</button>
+                <button class="boton_encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton_desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
             </div>
         </section>
        
         <aside class="contenido_texto_desencriptado">
             
-            <img src="/img/Muñeco.png " alt="Muñeco Alura"class="Muñeco"  >
-            <div class="contenido_texto_desencriptado_textos" >
+            <img src="/img/Muñeco.png " alt="Muñeco Alura" id="Imagen_Alura" class="Muñeco"   >
+            <div id="Texto_Imagen_Alura" class="contenido_texto_desencriptado_textos" >
                 <h2> Ningún mensaje fue encontrado</h2>
                 <p>Ingrese el texto que desee encriptar o desencriptar</p>
             </div>
-            <div class="texto_encriptado_activo" hidden>
-                <textarea class="contenido_encriptado"  cols="30" rows="12" ></textarea>
+            <div id="cuadro_Encriptado" class="texto_encriptado_activo"  >
+                <textarea id="texto_a_desencriptar" class="contenido_encriptado"  cols="30" rows="12"  ></textarea>
             </div>
-                <button class="boton_copiar"hidden >Copiar Texto</button>
+                <button id="boton_copiado" class="boton_copiar" >Copiar Texto</button>
            
         </aside>
     </main>
@@ -45,6 +45,6 @@
     <footer>
 
     </footer>
-
+<script src="/app_encriptador.js"></script>
 </body>
 </html>
