@@ -16,7 +16,7 @@
        
         <section class="contenido_texto_encriptado">
             
-            <textarea id="texto_a_encriptar"  class="contenido_encriptar" cols="30" rows="10" placeholder="Ingrese el texto aquí" onkeypress="return /[a-zñ ]/i.test(event.key)" autofocus ></textarea>
+            <textarea id="texto_a_encriptar"  class="contenido_encriptar" cols="30" rows="10" placeholder="Ingrese el texto aquí" onkeypress="return /[a-zñ ]/i.test(event.key)" onkeyup="this.value = this.value.toLowerCase()" autofocus ></textarea>
             <div class="contenido_mensaje_alerta">
                 <img class="contenido_img_alerta"  src="/img/zondicons--exclamation-solid.png" alt="Simbolo de exclamación dentro de un circulo.">
                 <h6> Solo letras minúsculas y sin acentos  </h6> 

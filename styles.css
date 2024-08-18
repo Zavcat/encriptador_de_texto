@@ -39,6 +39,7 @@
     outline: none;
     resize: none;
     border: none;
+    text-transform: lowercase;
 }
 
 .contenido_mensaje_alerta{
