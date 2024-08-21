@@ -61,6 +61,7 @@
     margin: 0 129px 7px 0;
     display: flex;
     justify-content: space-between;
+    
 }
 .boton_encriptar{
     width: 315px;
@@ -171,6 +172,18 @@
 }
 .boton_copiar:hover{
     background-color: rgb(218, 210, 210);
+}
+
+footer{
+    
+    text-align: center;
+    width: 50%;
+    margin-left: 13rem;
+    margin-top: 1.5rem;
+}
+footer p{
+    font-size: 12px;
+    
 }
 
 /* Diseño para Tablets.*/
@@ -336,6 +349,15 @@
     }
     .boton_copiar:hover{
         background-color: white;
+    }
+
+    footer{
+        width: 80%;
+        margin-top: 1.5rem;
+        margin-left: 70px;
+    }
+    footer p{
+        font-size: 12px;
     }
 
 }
@@ -504,6 +526,14 @@
     }
     .boton_copiar:hover{
         background-color: white;
+    }
+    footer{
+        width: 90%;
+        margin-top: 1.5rem;
+        margin-left: 20px;
+    }
+    footer p{
+        font-size: 12px;
     }
 
 }
