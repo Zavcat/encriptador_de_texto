@@ -190,7 +190,7 @@ footer p{
 
 /* Diseño para Tablets.*/
 
-@media (min-width:481px) and (max-width:780px){
+@media (min-width:481px) and (max-width:1025px){
     
     .logo{
         width: 5.3125rem;
@@ -219,6 +219,7 @@ footer p{
         margin-top: 1rem;
         outline: none;
         resize: none;
+        border: none;
         text-transform: lowercase;
     }
 
